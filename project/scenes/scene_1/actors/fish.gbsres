@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
-  "name": "",
+  "name": "Fish",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "510a170c-ae34-4725-b447-90fe4ac2944b",

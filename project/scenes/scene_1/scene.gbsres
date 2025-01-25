@@ -77,23 +77,6 @@
               }
             },
             "id": "b8b2cfb8-3804-4fba-be65-51dbe152dc6d"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "moveType": "horizontal",
-              "useCollisions": false
-            },
-            "id": "f460a389-77c8-4e0a-969c-d7645171e1dc"
           }
         ]
       },

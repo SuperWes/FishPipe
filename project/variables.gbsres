@@ -45,6 +45,106 @@
       "id": "78120f64-b1bc-462d-ac8d-df1c9f6d123f__L0",
       "name": "0",
       "symbol": "var_3"
+    },
+    {
+      "id": "374dff2c-e76c-4c49-adc9-1bb53f769692__L0",
+      "name": "0",
+      "symbol": "var_4"
+    },
+    {
+      "id": "6fefe053-f925-46b9-8681-5bf81f85e39f__L0",
+      "name": "0",
+      "symbol": "var_5"
+    },
+    {
+      "id": "50a3a4c7-b8c1-408f-9123-af589994f421__L0",
+      "name": "0",
+      "symbol": "var_6"
+    },
+    {
+      "id": "4a887763-d076-405d-b707-4e06d0264a7b__L0",
+      "name": "0",
+      "symbol": "var_7"
+    },
+    {
+      "id": "a9645487-0839-4aec-9d1b-df1cc5a7a4f3__L0",
+      "name": "0",
+      "symbol": "var_8"
+    },
+    {
+      "id": "5323641c-26e1-4501-bbb4-ad35be6c20a5__L0",
+      "name": "0",
+      "symbol": "var_9"
+    },
+    {
+      "id": "9f2c33a2-0a94-4dd3-bc0c-8ea2afd64a63__L0",
+      "name": "0",
+      "symbol": "var_10"
+    },
+    {
+      "id": "5cb7dc12-308f-46fe-842a-03e5570b1c56__L0",
+      "name": "0",
+      "symbol": "var_11"
+    },
+    {
+      "id": "f9ebf3fd-62b0-4fcf-8b33-9982489252b8__L0",
+      "name": "0",
+      "symbol": "var_12"
+    },
+    {
+      "id": "5b930267-93df-418a-9a08-1c25c5a56976__L0",
+      "name": "0",
+      "symbol": "var_13"
+    },
+    {
+      "id": "19a41f19-1d48-4ee0-94f5-0d43871952db__L0",
+      "name": "0",
+      "symbol": "var_14"
+    },
+    {
+      "id": "5574868c-e881-4373-80d5-431568058959__L0",
+      "name": "0",
+      "symbol": "var_15"
+    },
+    {
+      "id": "1feada09-24de-4498-846d-3bc80b82055a__L0",
+      "name": "0",
+      "symbol": "var_16"
+    },
+    {
+      "id": "54b7ccf2-f431-4b15-b402-b4d9ed848037__L0",
+      "name": "0",
+      "symbol": "var_17"
+    },
+    {
+      "id": "25b65caa-eea3-4d5a-adfd-4e26df63cab4__L0",
+      "name": "0",
+      "symbol": "var_18"
+    },
+    {
+      "id": "6407fa30-df4a-45d0-b18b-2c97f2a317d9__L0",
+      "name": "0",
+      "symbol": "var_19"
+    },
+    {
+      "id": "152b919f-97ec-4724-a89c-735eede68fda__L0",
+      "name": "0",
+      "symbol": "var_20"
+    },
+    {
+      "id": "acff5866-8e71-4958-8780-dc196e4af8b5__L0",
+      "name": "0",
+      "symbol": "var_21"
+    },
+    {
+      "id": "444a30c7-f49f-4091-aeb6-45dc257d2b08__L0",
+      "name": "0",
+      "symbol": "var_22"
+    },
+    {
+      "id": "8abcb983-5552-4a5b-832c-5874d56b67a6__L0",
+      "name": "0",
+      "symbol": "var_23"
     }
   ]
 }
