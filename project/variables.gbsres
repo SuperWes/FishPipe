@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "57a14fbd-74b1-4616-92cd-5f1886da98b9__L0",
-      "name": "Local 0",
-      "symbol": "var_local_3"
+      "name": "0",
+      "symbol": "var_1"
     },
     {
       "id": "2f36c9c8-cec4-4eeb-93f4-0378f2ebf0a7__L0",
@@ -15,6 +15,36 @@
       "id": "c7bce3f0-dc77-400e-b4a2-80f26ea82653__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "270e54ef-00a2-4b72-9dfc-8efc1638cf68__L0",
+      "name": "0",
+      "symbol": "var_0"
+    },
+    {
+      "id": "0",
+      "name": "Col 0 Height",
+      "symbol": "var_col_0_height"
+    },
+    {
+      "id": "1",
+      "name": "Col 1 Height",
+      "symbol": "var_col_1_height"
+    },
+    {
+      "id": "2",
+      "name": "Col 2 Height",
+      "symbol": "var_col_2_height"
+    },
+    {
+      "id": "f5f1b44b-f199-4f8c-8024-1b8189e79788__L0",
+      "name": "0",
+      "symbol": "var_2"
+    },
+    {
+      "id": "78120f64-b1bc-462d-ac8d-df1c9f6d123f__L0",
+      "name": "0",
+      "symbol": "var_3"
     }
   ]
 }

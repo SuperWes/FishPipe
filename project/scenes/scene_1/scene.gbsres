@@ -10,7 +10,9 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [
-    "",
+    "8d88d6d0-3949-4d05-a8e0-8008a0dbe2dc",
+    "60ccb927-2954-4f83-b8ce-33f882717911",
+    "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a",
     "dmg"
   ],
   "collisions": "",
@@ -23,7 +25,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.5,
+        "duration": 0.2,
         "frames": 30,
         "__scriptTabs": "end"
       },
@@ -67,7 +69,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": -1
+                "value": -2
               },
               "y": {
                 "type": "number",
@@ -75,6 +77,23 @@
               }
             },
             "id": "b8b2cfb8-3804-4fba-be65-51dbe152dc6d"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "f460a389-77c8-4e0a-969c-d7645171e1dc"
           }
         ]
       },
@@ -98,7 +117,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 1
+                "value": 2
               },
               "y": {
                 "type": "number",
@@ -110,11 +129,54 @@
         ]
       },
       "id": "ab931b5d-10f2-4881-8115-1d7f62052d0e"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "737f2038-de7a-4b1a-94a0-7200aed058ee",
+              "spriteStateId": "",
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "fd49bb46-292c-4b53-9414-67ac53a318b1"
+          }
+        ]
+      },
+      "id": "675550e9-c166-4332-987c-24d1a8d49b13"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "playerSpriteSheetId": "3bb14142-901a-4377-863e-9c9af446fa2a",
   "autoFadeEventCollapse": false
 }
