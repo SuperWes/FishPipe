@@ -1,0 +1,107 @@
+{
+  "_resourceType": "trigger",
+  "id": "ce3d7e56-6006-4cb5-977d-c9fba354c863",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 13,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              }
+            },
+            "id": "e7bd2947-95e3-4c30-a3f5-b25deb1cbc10"
+          }
+        ]
+      },
+      "id": "0023bfff-2068-4359-9fb0-8ae00b0432d1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "id": "515a9fd4-834c-472e-907b-cd8fa680e351"
+          }
+        ]
+      },
+      "id": "f87ee9f3-33c7-4a7d-b893-3e1a3fb2a385"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              }
+            },
+            "id": "a64dc077-1b6a-453b-a0ca-581d10e1f694"
+          }
+        ]
+      },
+      "id": "91079037-8593-408f-bf33-dbd671beb18b"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}
