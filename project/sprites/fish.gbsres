@@ -3,10 +3,10 @@
   "id": "510a170c-ae34-4725-b447-90fe4ac2944b",
   "name": "fish",
   "symbol": "sprite_fish",
-  "numFrames": 2,
+  "numFrames": 1,
   "filename": "fish.png",
-  "checksum": "6d346c3c9855bd4ae14236bd5d2c0d429a3fb3ed",
-  "width": 32,
+  "checksum": "6887c0591825a030616ee308751e32bfe48a53f3",
+  "width": 16,
   "height": 16,
   "states": [
     {
@@ -22,49 +22,23 @@
               "id": "36c91b12-f804-49d3-b36e-eeae963b4c45",
               "tiles": [
                 {
-                  "id": "fc299f1b-b277-44e4-bcf8-fc7d7f791bfe",
-                  "x": -7,
+                  "id": "cc6db464-d112-4d08-99d9-f52839cf0f11",
+                  "x": 0,
                   "y": 0,
                   "sliceX": 0,
                   "sliceY": 0,
+                  "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
                   "objPalette": "OBP0",
+                  "paletteIndex": 0,
                   "priority": false
                 },
                 {
-                  "id": "3316f01f-d01b-4729-8dc2-227a7fd1630e",
-                  "x": 1,
+                  "id": "5be4a83c-43b6-4d88-9b2d-5e60ed265736",
+                  "x": 8,
                   "y": 0,
                   "sliceX": 8,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "36d2180d-09e8-42f7-a265-ef4fb2e2efe4",
-                  "x": 9,
-                  "y": 0,
-                  "sliceX": 16,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                },
-                {
-                  "id": "f7b8e46d-5c7c-49b6-be56-7c90509fac23",
-                  "x": 17,
-                  "y": 0,
-                  "sliceX": 24,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
@@ -143,12 +117,12 @@
       ]
     }
   ],
-  "numTiles": 4,
-  "canvasWidth": 32,
+  "numTiles": 2,
+  "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,
-  "boundsWidth": 32,
+  "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15
 }

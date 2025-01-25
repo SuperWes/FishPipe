@@ -23,14 +23,14 @@
               "tiles": [
                 {
                   "id": "4575085b-128a-46e9-9a33-70c5ad5c551f",
-                  "x": 0,
+                  "x": 1,
                   "y": 0,
                   "sliceX": 64,
                   "sliceY": 0,
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 1,
                   "objPalette": "OBP0",
                   "priority": false
                 },
@@ -43,7 +43,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 1,
                   "objPalette": "OBP0",
                   "priority": false
                 }

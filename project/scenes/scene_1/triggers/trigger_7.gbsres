@@ -69,37 +69,6 @@
         ]
       },
       "id": "f87ee9f3-33c7-4a7d-b893-3e1a3fb2a385"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "left",
-          "right"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 1
-              },
-              "y": {
-                "type": "number",
-                "value": 13
-              }
-            },
-            "id": "a64dc077-1b6a-453b-a0ca-581d10e1f694"
-          }
-        ]
-      },
-      "id": "91079037-8593-408f-bf33-dbd671beb18b"
     }
   ],
   "leaveScript": [],

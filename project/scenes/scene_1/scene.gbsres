@@ -9,12 +9,15 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "dmg"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 270,
-  "y": 240,
+  "x": 88,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",

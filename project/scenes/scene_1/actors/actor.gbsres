@@ -1,20 +1,27 @@
 {
-  "_resourceType": "trigger",
-  "id": "b77ee970-16d1-42e6-839a-346952e4cb83",
+  "_resourceType": "actor",
+  "id": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
   "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "prefabId": "",
-  "x": 1,
-  "y": 7,
-  "symbol": "trigger_3",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
-  "script": [
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "up"
+          "right"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -22,7 +29,7 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION",
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
             "args": {
               "actorId": "$self$",
               "x": {
@@ -31,20 +38,20 @@
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 0
               }
             },
-            "id": "90b40e09-1673-4d6a-9e46-409af3d8d9be"
+            "id": "d42e28e8-7e25-4ffa-8ba5-fb3d4c2e0ae2"
           }
         ]
       },
-      "id": "103ba1cc-e812-47e5-aded-8a0f06a37eae"
+      "id": "9954eefe-9c3e-4d9d-b338-fd23bce4e9a1"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "down"
+          "left"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -52,25 +59,30 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION",
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
             "args": {
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 1
+                "value": -1
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 0
               }
             },
-            "id": "1531beca-a603-4b7f-b63b-7a205375c6ab"
+            "id": "5800ecf4-2d44-47d5-8fce-06a7ea5a2d32"
           }
         ]
       },
-      "id": "7a56e8bf-7912-498c-a1b8-0e6fa72e65ac"
+      "id": "656fbf38-6d0e-4bc2-a9ed-783ebf0f05a9"
     }
   ],
-  "leaveScript": [],
-  "_index": 3
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 1,
+  "_index": 0
 }
