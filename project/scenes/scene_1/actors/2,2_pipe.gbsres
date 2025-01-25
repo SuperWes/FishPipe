@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_15",
   "script": [],
@@ -23,6 +23,13 @@
         "actorId": "$self$"
       },
       "id": "67f78668-0870-4cb0-88e3-ae8b1477dba3"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a499a018-c416-420c-bcd7-a3bbffe26147"
     }
   ],
   "updateScript": [],

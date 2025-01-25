@@ -145,6 +145,11 @@
       "id": "8abcb983-5552-4a5b-832c-5874d56b67a6__L0",
       "name": "0",
       "symbol": "var_23"
+    },
+    {
+      "id": "3",
+      "name": "Active Piece Type",
+      "symbol": "var_active_piece_type"
     }
   ]
 }

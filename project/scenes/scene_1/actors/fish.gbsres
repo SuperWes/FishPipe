@@ -21,6 +21,68 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "737f2038-de7a-4b1a-94a0-7200aed058ee",
+              "spriteStateId": "",
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "a677fade-4511-4895-ae75-0e5f93b4f471"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "005e2703-53b3-438f-acf1-65cd1c0e181a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "spriteStateId": "Shooting",
+              "loopAnim": false
+            },
+            "id": "80a79239-7244-49fa-9713-1fa41c09fad4"
+          }
+        ]
+      },
+      "id": "b86629c5-bcd4-4ff3-96ee-97d5b8659669"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
           "down"
         ],
         "override": true,
@@ -119,6 +181,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 1,
-  "y": 7,
+  "y": 10,
   "_index": 0
 }
