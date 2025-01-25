@@ -4,9 +4,9 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "510a170c-ae34-4725-b447-90fe4ac2944b",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -21,7 +21,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "right"
+          "down"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -34,11 +34,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 1
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 2
               }
             },
             "id": "d42e28e8-7e25-4ffa-8ba5-fb3d4c2e0ae2"
@@ -51,7 +51,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "left"
+          "up"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -64,11 +64,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": -1
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": -2
               }
             },
             "id": "5800ecf4-2d44-47d5-8fce-06a7ea5a2d32"
@@ -82,7 +82,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
+  "x": 1,
   "y": 1,
   "_index": 0
 }

@@ -20,16 +20,101 @@
   "y": 30,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "actorId": "$self$",
-        "speed": 1
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
       },
-      "id": "a934fc46-407e-43ca-9b2f-35df62ce7d68"
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "c89bed88-fed6-440d-a7d5-35ce8716115c"
+          }
+        ]
+      },
+      "id": "1a144010-8277-4760-8274-971ab65bed84"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "b8b2cfb8-3804-4fba-be65-51dbe152dc6d"
+          }
+        ]
+      },
+      "id": "710595b9-ef36-412c-b187-72a25f290b60"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "9ec3cd31-013d-4d50-82cc-5b52367c542b"
+          }
+        ]
+      },
+      "id": "ab931b5d-10f2-4881-8115-1d7f62052d0e"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "510a170c-ae34-4725-b447-90fe4ac2944b"
+  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "autoFadeEventCollapse": false
 }

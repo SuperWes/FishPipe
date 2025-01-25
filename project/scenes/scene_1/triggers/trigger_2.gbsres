@@ -1,74 +1,48 @@
 {
   "_resourceType": "trigger",
-  "id": "5b539b91-4977-4a69-8f80-d19c2341ead4",
+  "id": "57a14fbd-74b1-4616-92cd-5f1886da98b9",
   "name": "",
   "prefabId": "",
-  "x": 1,
-  "y": 3,
-  "symbol": "trigger_1",
+  "x": 10,
+  "y": 16,
+  "symbol": "trigger_8",
   "prefabScriptOverrides": {},
-  "width": 1,
+  "width": 10,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_TEXT",
       "args": {
-        "input": [
-          "up"
+        "text": [
+          "#0# #1#"
         ],
-        "override": true,
-        "__scriptTabs": "press"
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 1
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "da9981de-8dec-476a-a434-6b989c291e44"
-          }
-        ]
-      },
-      "id": "778feb16-e678-4ae6-a3ec-4f250b002241"
+      "id": "5755f28a-aa9e-48e6-bba8-f0de83238e65"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
-        "input": [
-          "down"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
+        "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+        "vectorX": "L0",
+        "vectorY": "L1"
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 1
-              },
-              "y": {
-                "type": "number",
-                "value": 5
-              }
-            },
-            "id": "acce9916-28c1-4773-8c86-c0ed47a799ce"
-          }
-        ]
-      },
-      "id": "aec43f46-21ce-4e3a-b5b2-c3c8f4738584"
+      "id": "3d871860-2607-41df-b649-9b69e86b9952"
     }
   ],
   "leaveScript": [],
