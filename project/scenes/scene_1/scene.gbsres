@@ -151,6 +151,24 @@
               ]
             },
             "id": "fd49bb46-292c-4b53-9414-67ac53a318b1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "d06e316e-c17c-417a-af64-2432cb71672e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
+              "spriteStateId": "Shooting",
+              "loopAnim": false
+            },
+            "id": "0021b1dd-cdb2-4998-afc1-a6267b380c3a"
           }
         ]
       },

@@ -42,6 +42,24 @@
               }
             },
             "id": "d42e28e8-7e25-4ffa-8ba5-fb3d4c2e0ae2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "6655bb59-4521-475e-9f1b-a7c20ea0ead4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Just Moved",
+              "loopAnim": false
+            },
+            "id": "189f9441-11df-47d9-b9e1-c793e4362482"
           }
         ]
       },
@@ -72,6 +90,24 @@
               }
             },
             "id": "5800ecf4-2d44-47d5-8fce-06a7ea5a2d32"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "3cf837c2-4539-481d-bffc-9d9f746431ab"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Just Moved",
+              "loopAnim": false
+            },
+            "id": "271e7486-18c7-40be-934f-ba846a025244"
           }
         ]
       },
