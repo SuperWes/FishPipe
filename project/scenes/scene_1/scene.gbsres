@@ -22,6 +22,14 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "28dc6694-3181-4291-a220-5c07a13fea09"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "3",
@@ -145,6 +153,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "3bb14142-901a-4377-863e-9c9af446fa2a",
+  "playerSpriteSheetId": "f10fcc04-d596-44d8-9d38-4b376f4d92ba",
   "autoFadeEventCollapse": false
 }
