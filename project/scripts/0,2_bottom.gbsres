@@ -4,7 +4,71 @@
   "name": "0,2 Bottom",
   "description": "",
   "variables": {},
-  "actors": {},
+  "actors": {
+    "1": {
+      "id": "1",
+      "name": "1,0"
+    },
+    "2": {
+      "id": "2",
+      "name": "0,0"
+    },
+    "3": {
+      "id": "3",
+      "name": "0,1"
+    },
+    "4": {
+      "id": "4",
+      "name": "0,2"
+    },
+    "5": {
+      "id": "5",
+      "name": "1,1"
+    },
+    "6": {
+      "id": "6",
+      "name": "1,2"
+    },
+    "7": {
+      "id": "7",
+      "name": "2,0"
+    },
+    "8": {
+      "id": "8",
+      "name": "2,1"
+    },
+    "9": {
+      "id": "9",
+      "name": "2,2"
+    }
+  },
   "symbol": "script_17",
-  "script": []
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "23",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "bf8ebbce-6b76-4507-ae36-732470747073"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2e58fa33-c15d-4d15-90d7-91261ef0e717",
+        "$actor[1]$": "1",
+        "$actor[2]$": "2",
+        "$actor[3]$": "3",
+        "$actor[4]$": "4",
+        "$actor[5]$": "5",
+        "$actor[6]$": "6",
+        "$actor[7]$": "7",
+        "$actor[8]$": "8",
+        "$actor[9]$": "9"
+      },
+      "id": "8bdd16cc-6bb5-4426-bdf2-1cf87304a8ac"
+    }
+  ]
 }

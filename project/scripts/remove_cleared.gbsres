@@ -7,7 +7,7 @@
   "actors": {
     "1": {
       "id": "1",
-      "name": "Actor B"
+      "name": "1,0 Pipe"
     },
     "2": {
       "id": "2",
@@ -23,23 +23,23 @@
     },
     "5": {
       "id": "5",
-      "name": "Actor F"
+      "name": "1,1 Pipe"
     },
     "6": {
       "id": "6",
-      "name": "Actor G"
+      "name": "1,2 Pipe"
     },
     "7": {
       "id": "7",
-      "name": "Actor H"
+      "name": "2,0 Pipe"
     },
     "8": {
       "id": "8",
-      "name": "Actor I"
+      "name": "2,1 Pipe"
     },
     "9": {
       "id": "9",
-      "name": "Actor J"
+      "name": "2,2 Pipe"
     }
   },
   "symbol": "script_4",
