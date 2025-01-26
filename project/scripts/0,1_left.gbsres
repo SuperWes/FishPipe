@@ -147,7 +147,16 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "d25080d0-7061-43a7-99be-f2c413546fae"
+                          "customEventId": "d25080d0-7061-43a7-99be-f2c413546fae",
+                          "$actor[1]$": "1",
+                          "$actor[2]$": "2",
+                          "$actor[3]$": "3",
+                          "$actor[4]$": "4",
+                          "$actor[5]$": "5",
+                          "$actor[6]$": "6",
+                          "$actor[7]$": "7",
+                          "$actor[8]$": "8",
+                          "$actor[9]$": "9"
                         },
                         "id": "0dc91db3-9c41-40c0-9b66-34999bab8b15"
                       }

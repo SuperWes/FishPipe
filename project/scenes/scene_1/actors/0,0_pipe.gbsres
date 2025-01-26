@@ -45,20 +45,58 @@
   "hit2Script": [],
   "hit3Script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_IF",
       "args": {
-        "customEventId": "71004496-81be-4dfc-9fc2-b27e1a351823",
-        "$actor[1]$": "abbb76fb-9153-4cdd-869e-2aa67a65345c",
-        "$actor[2]$": "fd674122-89be-4e68-8211-d7d204c5adcf",
-        "$actor[3]$": "081499ee-b599-472d-bd17-516ad6f8ac99",
-        "$actor[4]$": "b034c4d5-afc8-4f7e-a9d7-7299cd71dcae",
-        "$actor[5]$": "d3ead0d2-dafa-47d1-9b93-6ac0f0cadeef",
-        "$actor[6]$": "3677e764-7057-45fa-a13d-c2961ffad9cf",
-        "$actor[7]$": "fb256483-e5ec-4337-9d5e-6c921bf65f00",
-        "$actor[8]$": "d3ead0d2-dafa-47d1-9b93-6ac0f0cadeef",
-        "$actor[9]$": "cb2a25db-9f51-43bd-96fd-b210b943bc5e"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "or",
+            "valueA": {
+              "type": "number",
+              "value": 0
+            },
+            "valueB": {
+              "type": "or",
+              "valueA": {
+                "type": "number",
+                "value": 3
+              },
+              "valueB": {
+                "type": "number",
+                "value": 5
+              }
+            }
+          }
+        },
+        "__collapseElse": true
       },
-      "id": "7c38a42f-2c6e-4914-851a-47ce953db030"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "71004496-81be-4dfc-9fc2-b27e1a351823",
+              "$actor[1]$": "abbb76fb-9153-4cdd-869e-2aa67a65345c",
+              "$actor[2]$": "fd674122-89be-4e68-8211-d7d204c5adcf",
+              "$actor[3]$": "081499ee-b599-472d-bd17-516ad6f8ac99",
+              "$actor[4]$": "b034c4d5-afc8-4f7e-a9d7-7299cd71dcae",
+              "$actor[5]$": "d3ead0d2-dafa-47d1-9b93-6ac0f0cadeef",
+              "$actor[6]$": "3677e764-7057-45fa-a13d-c2961ffad9cf",
+              "$actor[7]$": "fb256483-e5ec-4337-9d5e-6c921bf65f00",
+              "$actor[8]$": "d3ead0d2-dafa-47d1-9b93-6ac0f0cadeef",
+              "$actor[9]$": "cb2a25db-9f51-43bd-96fd-b210b943bc5e",
+              "__collapse": false
+            },
+            "id": "7c38a42f-2c6e-4914-851a-47ce953db030"
+          }
+        ],
+        "false": []
+      },
+      "id": "5b80f3cd-c5cb-4c64-8547-a91ec6c1bd46"
     }
   ],
   "x": 10,
