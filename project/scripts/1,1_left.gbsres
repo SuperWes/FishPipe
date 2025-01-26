@@ -75,7 +75,16 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "8bd62a1d-ad0f-40bb-af57-c6ada7d558df"
+              "customEventId": "8bd62a1d-ad0f-40bb-af57-c6ada7d558df",
+              "$actor[1]$": "1",
+              "$actor[2]$": "2",
+              "$actor[3]$": "3",
+              "$actor[4]$": "4",
+              "$actor[5]$": "5",
+              "$actor[6]$": "6",
+              "$actor[7]$": "7",
+              "$actor[8]$": "8",
+              "$actor[9]$": "9"
             },
             "id": "c7ef6149-c73b-40a7-b4d9-ee3af291955d"
           }
@@ -138,7 +147,16 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "da203b6f-75eb-4134-ba28-3c8e38c4463f"
+                          "customEventId": "da203b6f-75eb-4134-ba28-3c8e38c4463f",
+                          "$actor[1]$": "1",
+                          "$actor[2]$": "2",
+                          "$actor[3]$": "3",
+                          "$actor[4]$": "4",
+                          "$actor[5]$": "5",
+                          "$actor[6]$": "6",
+                          "$actor[7]$": "7",
+                          "$actor[8]$": "8",
+                          "$actor[9]$": "9"
                         },
                         "id": "7813f3b5-9876-4523-bfdc-f53b3f7b947f"
                       }

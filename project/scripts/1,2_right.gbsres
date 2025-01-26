@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
-  "id": "da203b6f-75eb-4134-ba28-3c8e38c4463f",
-  "name": "1,2 Bottom",
+  "id": "57c90d6b-13a1-4028-bc7e-c97b79b1524f",
+  "name": "1,2 Right",
   "description": "",
   "variables": {},
   "actors": {
@@ -42,7 +42,7 @@
       "name": "2,2"
     }
   },
-  "symbol": "script_30",
+  "symbol": "script_13",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -52,7 +52,7 @@
           "type": "true"
         }
       },
-      "id": "8e4843fa-5dd8-4b04-8560-163565eb2009"
+      "id": "ab174055-b88d-4e71-a540-56b09b38c0a6"
     },
     {
       "command": "EVENT_IF",
@@ -65,7 +65,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 3
+            "value": 0
           }
         },
         "__collapseElse": false
@@ -86,7 +86,7 @@
               "$actor[8]$": "8",
               "$actor[9]$": "9"
             },
-            "id": "20f6b71c-48a0-4e45-b09e-9a1c79cccd65"
+            "id": "5f179a6a-8bf1-4850-8882-41caa1a908cd"
           }
         ],
         "false": [
@@ -111,7 +111,7 @@
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "customEventId": "c51a3506-9151-412a-9fbd-b00fc621998c",
+                    "customEventId": "651795d4-128f-4ada-b335-2a075a86b91d",
                     "$actor[1]$": "1",
                     "$actor[2]$": "2",
                     "$actor[3]$": "3",
@@ -122,7 +122,7 @@
                     "$actor[8]$": "8",
                     "$actor[9]$": "9"
                   },
-                  "id": "8367f9e3-6aab-4e68-9ad4-ecccede3eceb"
+                  "id": "a080bfe7-7cfa-4244-997f-9c7000ddcdff"
                 }
               ],
               "false": [
@@ -140,15 +140,15 @@
                     "$actor[8]$": "8",
                     "$actor[9]$": "9"
                   },
-                  "id": "a6a6a222-5512-4745-add6-bcd5c43ebfb1"
+                  "id": "a3163311-d745-49c2-b87c-8ef5ba99953a"
                 }
               ]
             },
-            "id": "5d519b63-cc36-4315-a394-7f238acbf5e0"
+            "id": "70345cc6-176f-4ea5-8949-14f7968da494"
           }
         ]
       },
-      "id": "6b10ef8b-b651-44c0-9c7f-af265cae3205"
+      "id": "cf8535a0-fcb2-40a5-b34d-2319b495ccf2"
     }
   ]
 }

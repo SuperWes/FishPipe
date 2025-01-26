@@ -55,20 +55,60 @@
       "id": "9447b54d-2d81-42c3-848c-f34c16eaafe5"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_IF",
       "args": {
-        "customEventId": "2e58fa33-c15d-4d15-90d7-91261ef0e717",
-        "$actor[1]$": "1",
-        "$actor[2]$": "2",
-        "$actor[3]$": "3",
-        "$actor[4]$": "4",
-        "$actor[5]$": "5",
-        "$actor[6]$": "6",
-        "$actor[7]$": "7",
-        "$actor[8]$": "8",
-        "$actor[9]$": "9"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "a008022f-b94e-443f-8cc8-e3d4c8a711cb"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7cfaab68-3972-486c-9114-3e62f117f947",
+              "$actor[1]$": "1",
+              "$actor[2]$": "2",
+              "$actor[3]$": "3",
+              "$actor[4]$": "4",
+              "$actor[5]$": "5",
+              "$actor[6]$": "6",
+              "$actor[7]$": "7",
+              "$actor[8]$": "8",
+              "$actor[9]$": "9"
+            },
+            "id": "49e1d0b7-60a1-46b3-80ab-cbf60d0b9417"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2e58fa33-c15d-4d15-90d7-91261ef0e717",
+              "$actor[1]$": "1",
+              "$actor[2]$": "2",
+              "$actor[3]$": "3",
+              "$actor[4]$": "4",
+              "$actor[5]$": "5",
+              "$actor[6]$": "6",
+              "$actor[7]$": "7",
+              "$actor[8]$": "8",
+              "$actor[9]$": "9"
+            },
+            "id": "a008022f-b94e-443f-8cc8-e3d4c8a711cb"
+          }
+        ]
+      },
+      "id": "2417e4fb-3464-4509-92e9-ede4e23187c3"
     }
   ]
 }

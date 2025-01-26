@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
-  "id": "da203b6f-75eb-4134-ba28-3c8e38c4463f",
-  "name": "1,2 Bottom",
+  "id": "fe7aec96-1564-43de-9c3a-ff15bd57345d",
+  "name": "1,1 Right",
   "description": "",
   "variables": {},
   "actors": {
@@ -42,17 +42,18 @@
       "name": "2,2"
     }
   },
-  "symbol": "script_30",
+  "symbol": "script_10",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "27",
+        "variable": "26",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
-      "id": "8e4843fa-5dd8-4b04-8560-163565eb2009"
+      "id": "6ef4159b-96d9-4480-a813-97fd2dbe9456"
     },
     {
       "command": "EVENT_IF",
@@ -61,21 +62,22 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "13"
+            "value": "12"
           },
           "valueB": {
             "type": "number",
-            "value": 3
+            "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "338599a5-637a-4821-9945-e83faa31c8b1",
+              "customEventId": "78ff73e5-5a01-4c4a-a6e0-c28fd4fd4782",
               "$actor[1]$": "1",
               "$actor[2]$": "2",
               "$actor[3]$": "3",
@@ -86,7 +88,7 @@
               "$actor[8]$": "8",
               "$actor[9]$": "9"
             },
-            "id": "20f6b71c-48a0-4e45-b09e-9a1c79cccd65"
+            "id": "b403a8db-0e82-453e-bc20-121b50eb2707"
           }
         ],
         "false": [
@@ -97,21 +99,21 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "13"
+                  "value": "12"
                 },
                 "valueB": {
                   "type": "number",
                   "value": 2
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": true
             },
             "children": {
               "true": [
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "customEventId": "c51a3506-9151-412a-9fbd-b00fc621998c",
+                    "customEventId": "f6a9e07b-953b-49eb-921b-cda16f7cb291",
                     "$actor[1]$": "1",
                     "$actor[2]$": "2",
                     "$actor[3]$": "3",
@@ -122,7 +124,46 @@
                     "$actor[8]$": "8",
                     "$actor[9]$": "9"
                   },
-                  "id": "8367f9e3-6aab-4e68-9ad4-ecccede3eceb"
+                  "id": "283c0e93-b716-44f7-8b1a-79cc5c4b9ba3"
+                }
+              ],
+              "false": []
+            },
+            "id": "f6b372dd-ea7f-4c8e-baa3-729c7d9f80c4"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "da203b6f-75eb-4134-ba28-3c8e38c4463f",
+                    "$actor[1]$": "1",
+                    "$actor[2]$": "2",
+                    "$actor[3]$": "3",
+                    "$actor[4]$": "4",
+                    "$actor[5]$": "5",
+                    "$actor[6]$": "6",
+                    "$actor[7]$": "7",
+                    "$actor[8]$": "8",
+                    "$actor[9]$": "9"
+                  },
+                  "id": "835a8d70-0cd3-4dd8-9596-0dfcfb104868"
                 }
               ],
               "false": [
@@ -140,15 +181,15 @@
                     "$actor[8]$": "8",
                     "$actor[9]$": "9"
                   },
-                  "id": "a6a6a222-5512-4745-add6-bcd5c43ebfb1"
+                  "id": "5d79f082-073e-46d6-9408-c287e67e281c"
                 }
               ]
             },
-            "id": "5d519b63-cc36-4315-a394-7f238acbf5e0"
+            "id": "cf9dae99-0c8a-46ce-8035-f9b7c2c57928"
           }
         ]
       },
-      "id": "6b10ef8b-b651-44c0-9c7f-af265cae3205"
+      "id": "468ed025-e202-4577-a743-dc0a61cf4696"
     }
   ]
 }
