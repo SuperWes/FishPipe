@@ -29,22 +29,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 13
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": false
-            },
-            "id": "0c5b2698-5062-469e-ac42-cab7472563dc"
-          },
-          {
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "0"
@@ -57,6 +41,24 @@
               "actorId": "7f4a0737-9995-492a-9cf8-fcea7f04f2d0"
             },
             "id": "278c6184-d93e-4100-875e-bc00d64917e5"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "7f4a0737-9995-492a-9cf8-fcea7f04f2d0",
+              "frame": {
+                "type": "variable",
+                "value": "3"
+              }
+            },
+            "id": "46374c5b-065a-4a84-9a82-0c3c4c9c84c9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
+            },
+            "id": "e912b30c-c8fa-4912-a02f-21b9c4fb724c"
           }
         ],
         "false": []

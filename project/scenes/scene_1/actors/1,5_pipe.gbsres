@@ -4,7 +4,7 @@
   "name": "1,5 Pipe",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3bb14142-901a-4377-863e-9c9af446fa2a",
+  "spriteSheetId": "f10fcc04-d596-44d8-9d38-4b376f4d92ba",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -30,6 +30,14 @@
         "actorId": "$self$"
       },
       "id": "ff92ad95-7fc6-465f-a1af-9c56c79f2af6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "9cb9d30d-95bf-4b11-a93e-5d60d651855a"
     }
   ],
   "updateScript": [],

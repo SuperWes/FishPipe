@@ -1,0 +1,51 @@
+{
+  "_resourceType": "script",
+  "id": "5a7751e1-8a10-4617-9771-2308357eaab1",
+  "name": "Randomize Active",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "rnd",
+          "value": {
+            "type": "number",
+            "value": 5
+          }
+        }
+      },
+      "id": "171a89ec-792d-45b1-abce-0a40c46db4cd"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "3"
+        }
+      },
+      "id": "54ac2563-54ce-449b-925e-2f2fa9f074db"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "bfed431c-e906-4636-96bf-5d54dff2ad8d"
+    }
+  ]
+}

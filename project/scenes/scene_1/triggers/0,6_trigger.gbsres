@@ -29,20 +29,11 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION",
+            "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 13
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": false
+              "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
             },
-            "id": "3846df58-2e3e-4ba7-b02a-1e1f5c1757f9"
+            "id": "9d868f30-6cdc-484b-bdc9-5e987057aaa8"
           }
         ],
         "false": []

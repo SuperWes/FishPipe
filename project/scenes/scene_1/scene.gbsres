@@ -30,30 +30,11 @@
       "id": "28dc6694-3181-4291-a220-5c07a13fea09"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "3",
-        "value": {
-          "type": "rnd",
-          "value": {
-            "type": "number",
-            "value": 5
-          }
-        },
-        "__collapse": true
+        "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
       },
-      "id": "29fe98a6-332c-4492-bc5c-e6bdb7858658"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "$self$",
-        "frame": {
-          "type": "variable",
-          "value": "3"
-        }
-      },
-      "id": "c671cd8a-b991-43e1-a975-c7b8c679358e"
+      "id": "f2cc11f6-056d-4454-869f-77e7585465ef"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",

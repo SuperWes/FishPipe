@@ -32,11 +32,11 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "projectile",
+              "__section": "source",
               "spriteSheetId": "737f2038-de7a-4b1a-94a0-7200aed058ee",
               "spriteStateId": "",
-              "actorId": "a462afa7-83ca-4338-8b27-e1ad1f7cadc6",
-              "x": 0,
+              "actorId": "$self$",
+              "x": 14,
               "y": 0,
               "directionType": "direction",
               "otherActorId": "$self$",
@@ -48,7 +48,7 @@
               "speed": 2,
               "animSpeed": 15,
               "lifeTime": 1,
-              "loopAnim": true,
+              "loopAnim": false,
               "destroyOnHit": true,
               "collisionGroup": "3",
               "collisionMask": [

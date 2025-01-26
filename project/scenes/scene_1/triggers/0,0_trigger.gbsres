@@ -18,27 +18,29 @@
       "id": "db71d43f-0646-40f1-90d8-d0ae31985fc8"
     },
     {
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 13
-        },
-        "y": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": false
-      },
-      "id": "d50f93d0-a306-469c-94c3-18082aa3b93b"
-    },
-    {
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "0"
       },
       "id": "e9a7bc12-d56c-4440-9d53-72a49c4240e4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "fd674122-89be-4e68-8211-d7d204c5adcf",
+        "frame": {
+          "type": "variable",
+          "value": "3"
+        }
+      },
+      "id": "ecdfea01-4bd0-40cf-9644-0f813483f5b9"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
+      },
+      "id": "63f7a49b-30e8-4d23-92fe-59a5dcda8c3e"
     }
   ],
   "leaveScript": [],
