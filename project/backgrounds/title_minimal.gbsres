@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "51e78cbf-0627-4c57-baf3-fe388f60e210",
+  "name": "title_minimal",
+  "symbol": "bg_title",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "title_minimal.png",
+  "tileColors": ""
+}

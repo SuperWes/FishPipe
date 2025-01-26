@@ -3,13 +3,21 @@
   "id": "1418b6ea-5835-40b5-9e5b-cf40088997d1",
   "_index": 1,
   "name": "Title Scene",
-  "backgroundId": "d66b715e-90ff-42cb-a2c0-9600f7940fc3",
+  "backgroundId": "4885c06c-d2cd-470c-9553-82ae71a0ba9e",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    "default-bg-4",
+    "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a"
+  ],
+  "spritePaletteIds": [
+    "",
+    "60ccb927-2954-4f83-b8ce-33f882717911",
+    "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a",
+    "dmg"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
