@@ -156,7 +156,8 @@
                           "$actor[6]$": "6",
                           "$actor[7]$": "7",
                           "$actor[8]$": "8",
-                          "$actor[9]$": "9"
+                          "$actor[9]$": "9",
+                          "__collapse": false
                         },
                         "id": "7813f3b5-9876-4523-bfdc-f53b3f7b947f"
                       }

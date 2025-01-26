@@ -2,15 +2,18 @@
   "_resourceType": "scene",
   "id": "58d192ca-073a-4c90-95f2-9f91e1758cd7",
   "_index": 0,
-  "name": "Scene 1",
-  "backgroundId": "d66b715e-90ff-42cb-a2c0-9600f7940fc3",
-  "tilesetId": "",
+  "type": "TOPDOWN",
+  "name": "Play Scene",
+  "symbol": "scene_1",
+  "x": 360,
+  "y": 176,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "d66b715e-90ff-42cb-a2c0-9600f7940fc3",
+  "tilesetId": "",
   "paletteIds": [
     "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a",
-    null,
+    "",
     "default-bg-1",
     "default-bg-2",
     "default-bg-2",
@@ -23,11 +26,9 @@
     "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a",
     "dmg"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 88,
-  "y": 32,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "f10fcc04-d596-44d8-9d38-4b376f4d92ba",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -203,6 +204,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f10fcc04-d596-44d8-9d38-4b376f4d92ba",
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }
