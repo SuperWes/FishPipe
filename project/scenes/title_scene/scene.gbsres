@@ -24,6 +24,17 @@
       "id": "c5b769ab-73bb-4ed9-b815-ed5a01f653f1"
     },
     {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "  By Wes & Tim\nPress any Button",
+        "x": 2,
+        "y": 14,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "c7cd15f2-f723-4821-8381-55831b00d3f1"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
