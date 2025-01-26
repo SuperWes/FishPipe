@@ -54,6 +54,17 @@
             "id": "6f70e5bf-9a55-4012-94b1-5a2b9f1e4350"
           },
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "variable",
+                "value": "3"
+              }
+            },
+            "id": "5261ff66-d603-4f58-b6e0-dfc71025b3b4"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
