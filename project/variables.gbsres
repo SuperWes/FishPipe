@@ -182,11 +182,6 @@
       "symbol": "var_0_4_piece_type"
     },
     {
-      "id": "10",
-      "name": "0,5 Piece Type",
-      "symbol": "var_0_5_piece_type"
-    },
-    {
       "id": "11",
       "name": "1,0 Piece Type",
       "symbol": "var_1_0_piece_type"
@@ -212,11 +207,6 @@
       "symbol": "var_1_4_piece_type"
     },
     {
-      "id": "16",
-      "name": "1,5 Piece Type",
-      "symbol": "var_1_5_piece_type"
-    },
-    {
       "id": "17",
       "name": "2,0 Piece Type",
       "symbol": "var_2_0_piece_type"
@@ -240,11 +230,6 @@
       "id": "21",
       "name": "2,4 Piece Type",
       "symbol": "var_2_4_piece_type"
-    },
-    {
-      "id": "22",
-      "name": "2,5 Piece Type",
-      "symbol": "var_2_5_piece_type"
     },
     {
       "id": "cf9506df-3263-4168-96fa-f641601269d0__L0",
