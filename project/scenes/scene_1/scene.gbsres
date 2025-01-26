@@ -3,12 +3,20 @@
   "id": "58d192ca-073a-4c90-95f2-9f91e1758cd7",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "d66b715e-90ff-42cb-a2c0-9600f7940fc3",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "a91127b5-02ac-4c6e-a4e3-5575aaeadc3a",
+    null,
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-6",
+    "default-bg-6"
+  ],
   "spritePaletteIds": [
     "8d88d6d0-3949-4d05-a8e0-8008a0dbe2dc",
     "60ccb927-2954-4f83-b8ce-33f882717911",

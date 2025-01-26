@@ -1,0 +1,25 @@
+{
+  "_resourceType": "background",
+  "id": "d66b715e-90ff-42cb-a2c0-9600f7940fc3",
+  "name": "bg1",
+  "symbol": "sprite_bg1",
+  "numFrames": 10,
+  "filename": "bg1.png",
+  "checksum": "54e41dbe2359735ff6d813d7bd46cc7cf998d422",
+  "width": 20,
+  "height": 18,
+  "states": [
+    "cc84a50e-e921-4e3e-92d3-2c153d448428"
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "tileColors": ""
+}
