@@ -18,6 +18,13 @@
       "id": "39165830-de8b-472b-a0b3-e50dd1edbf16"
     },
     {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "fb256483-e5ec-4337-9d5e-6c921bf65f00"
+      },
+      "id": "b2646333-2d2b-4cfe-81d4-c1e80f65a7f9"
+    },
+    {
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "2"

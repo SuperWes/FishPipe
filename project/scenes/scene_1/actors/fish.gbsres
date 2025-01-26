@@ -32,7 +32,7 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "source",
+              "__section": "projectile",
               "spriteSheetId": "737f2038-de7a-4b1a-94a0-7200aed058ee",
               "spriteStateId": "",
               "actorId": "$self$",

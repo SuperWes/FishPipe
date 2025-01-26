@@ -43,6 +43,13 @@
             "id": "278c6184-d93e-4100-875e-bc00d64917e5"
           },
           {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "7f4a0737-9995-492a-9cf8-fcea7f04f2d0"
+            },
+            "id": "4e06c13f-084b-4119-8dd1-89b67ddf45ee"
+          },
+          {
             "command": "EVENT_ACTOR_SET_FRAME",
             "args": {
               "actorId": "7f4a0737-9995-492a-9cf8-fcea7f04f2d0",
