@@ -4,7 +4,7 @@
   "name": "0,5 Trigger",
   "prefabId": "",
   "x": 10,
-  "y": 5,
+  "y": 9,
   "symbol": "trigger_18",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -21,7 +21,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 5
+            "value": 3
           }
         },
         "__collapseElse": true
@@ -78,7 +78,7 @@
               "variable": "8",
               "value": {
                 "type": "variable",
-                "value": "7"
+                "value": "3"
               }
             },
             "id": "f7f562ad-6564-47ba-990b-bd0107906390"
@@ -95,50 +95,6 @@
             "id": "612f646b-adce-4233-b10b-bacf7a962640"
           },
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "7",
-              "value": {
-                "type": "variable",
-                "value": "9"
-              }
-            },
-            "id": "b81d3926-b226-43bd-821c-49cfa996ba5a"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_FRAME",
-            "args": {
-              "actorId": "7f4a0737-9995-492a-9cf8-fcea7f04f2d0",
-              "frame": {
-                "type": "variable",
-                "value": "7"
-              }
-            },
-            "id": "af8ada3b-21a7-4b62-bf32-97a0173354c8"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "9",
-              "value": {
-                "type": "variable",
-                "value": "3"
-              }
-            },
-            "id": "3b83bbe7-7dca-4268-b35c-1a5cc0cda13e"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_FRAME",
-            "args": {
-              "actorId": "2f68c7e5-f38b-467f-b484-33f2f0e82316",
-              "frame": {
-                "type": "variable",
-                "value": "9"
-              }
-            },
-            "id": "87160d80-fb9b-4588-b8e1-e4d9ab2bdb2f"
-          },
-          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "5a7751e1-8a10-4617-9771-2308357eaab1"
@@ -152,5 +108,5 @@
     }
   ],
   "leaveScript": [],
-  "_index": 17
+  "_index": 11
 }

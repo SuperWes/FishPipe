@@ -36,7 +36,15 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "830b011d-0980-4cc6-bb7e-1dd3c04af21c"
+      },
+      "id": "a6fb5933-acc1-4839-bd25-119e37672a37"
+    }
+  ],
   "x": 12,
   "y": 15,
   "_index": 1

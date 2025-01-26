@@ -27,7 +27,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 88,
-  "y": 30,
+  "y": 32,
   "script": [
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
