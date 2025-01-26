@@ -43,7 +43,7 @@
         "duration": 0.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -76,24 +76,54 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": -2
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
               },
-              "y": {
-                "type": "number",
-                "value": 0
-              }
+              "__collapseElse": false
             },
-            "id": "b8b2cfb8-3804-4fba-be65-51dbe152dc6d"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": -2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "b8b2cfb8-3804-4fba-be65-51dbe152dc6d"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "4"
+                  },
+                  "id": "b64b0d0e-c433-46c1-8187-774e534eade3"
+                }
+              ],
+              "false": []
+            },
+            "id": "7ed2347b-4852-4207-9186-53f786a4f3ec"
           }
         ]
       },
@@ -107,24 +137,55 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 2
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
               },
-              "y": {
-                "type": "number",
-                "value": 0
-              }
+              "__collapseElse": true,
+              "__collapse": false
             },
-            "id": "9ec3cd31-013d-4d50-82cc-5b52367c542b"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "9ec3cd31-013d-4d50-82cc-5b52367c542b"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "4"
+                  },
+                  "id": "de8502c1-deb0-49a1-906c-171b07bbbd50"
+                }
+              ],
+              "false": []
+            },
+            "id": "21835d74-4c9e-4c72-bd8d-e31d7a94231c"
           }
         ]
       },

@@ -46,6 +46,17 @@
         }
       },
       "id": "bfed431c-e906-4636-96bf-5d54dff2ad8d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "8d378ccb-f15e-42b5-9c09-ad02030cba21"
     }
   ]
 }

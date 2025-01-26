@@ -5,7 +5,7 @@
   "symbol": "sprite_bubble",
   "numFrames": 2,
   "filename": "bubble.png",
-  "checksum": "b427dd54539ed439c903b312e2d411f8835575e0",
+  "checksum": "bb0cefed87d80f3f178deed5956ed5386af2ab13",
   "width": 32,
   "height": 16,
   "states": [
@@ -148,7 +148,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
