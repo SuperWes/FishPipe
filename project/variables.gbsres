@@ -245,6 +245,16 @@
       "id": "22",
       "name": "2,5 Piece Type",
       "symbol": "var_2_5_piece_type"
+    },
+    {
+      "id": "cf9506df-3263-4168-96fa-f641601269d0__L0",
+      "name": "0",
+      "symbol": "var_24"
+    },
+    {
+      "id": "02b2a128-03b7-4e9f-87de-8c45614e5310__L0",
+      "name": "0",
+      "symbol": "var_25"
     }
   ]
 }
